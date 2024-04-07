@@ -6,13 +6,14 @@ body {
     font-size: 20px;
 }
 .container {
-    height: 100px;
+    min-height: 100px;
     width: 650px;
     background: #eae3e3;
     border-radius: 15px;
     position: fixed;
     left: 50%;
-    top: 80%;
+    right: 50px;
+    bottom: 100px;
 }
 
 .circle {
