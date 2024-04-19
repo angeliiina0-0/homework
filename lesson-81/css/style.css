@@ -1,0 +1,14 @@
+body {
+    background: #7d7d7d;
+}
+
+div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+img {
+    max-width: 600px;
+}
