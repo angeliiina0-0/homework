@@ -1,0 +1,12 @@
+body {
+    background: #747474;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+    max-width: 600px;
+}
