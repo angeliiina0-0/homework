@@ -1,0 +1,13 @@
+body {
+    background: #898585;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+img {
+    max-width: 600px;
+}
