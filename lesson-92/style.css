@@ -24,7 +24,7 @@
     position: fixed;
     inset: 0;
     z-index: 2;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #000000c1;
@@ -34,7 +34,6 @@
 }
 
 .modal--open {
-    display: flex;
     opacity: 1;
     visibility: visible;
 }
