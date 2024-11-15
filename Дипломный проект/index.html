@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/icons/logo.png" rel="shortcut icon" type="image/x-icon">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+    <title>Нитевой лифтинг</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <div class="header__top-block">
+                            <a class="header__logo" href="#">
+                                <img src="img/icons/logo.png" alt="Логотип компании">
+                            </a>
+                            <div class="header__text text">
+                                Нитевой лифтинг лица в Санкт-Петербурге
+                            </div>
+                        </div>
+                        <ul class="header__socials-list">
+                            <li class="header__socials-item">
+                                <a class="header__socials-link" href="#">
+                                    <svg width="30" height="23" viewBox="0 0 30 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M24.3994 16.9203H24.1755C22.6489 16.6779 21.7047 15.6374 20.8178 14.6676C20.3095 14.1224 19.4911 12.7188 18.5793 12.8654C17.2828 13.0713 18.0061 15.3141 17.4601 16.2445C17.0272 16.9879 15.1565 16.8302 13.8786 16.695C9.82691 16.2765 7.62917 14.2355 5.82004 11.9644C3.87704 9.54112 2.47822 6.88383 1.11924 4.07989C0.671543 3.16102 0 2.26647 0 1.15138C0.658783 0.631458 1.82637 0.700841 2.91002 0.700841C3.82153 0.700841 5.14849 0.594964 5.82004 0.926111C6.21781 1.1257 6.61716 2.28179 6.93928 2.95354C7.56783 4.2961 8.31711 5.57797 9.17775 6.78314C9.56904 7.32379 10.2721 8.27353 10.9685 8.13476C11.6528 8.00185 11.6108 6.47609 11.6401 5.43152C11.6757 4.24367 11.7679 2.68547 11.4162 2.05246C11.0899 1.4591 10.4557 1.50641 9.84929 1.15138C10.3516 0.160192 11.752 0.02503 13.4309 0.02503C14.8384 0.02503 16.6802 -0.20024 17.2363 0.700841C17.7885 1.63008 17.502 3.50883 17.4601 4.75571C17.4183 6.15599 17.1443 7.4853 18.1317 8.13476C18.8954 8.05501 19.2596 7.34631 19.6986 6.78314C20.6712 5.5464 21.4101 4.5417 22.1609 2.95354C22.4662 2.29057 22.7239 1.13629 23.2801 0.926111C24.1294 0.617941 25.3957 0.700841 26.6379 0.700841C27.6629 0.700841 29.4467 0.468362 29.7717 1.15138C30.0352 1.69676 29.3464 3.23513 29.1002 3.62935C28.1551 5.1292 27.2064 6.15486 26.1902 7.45895C25.7801 7.98608 25.0163 8.65558 25.0709 9.48638C25.1067 10.1275 25.6861 10.6141 26.1902 11.0633C27.1674 11.96 28.0662 12.9398 28.8763 13.9918C29.2085 14.4058 30.069 15.2569 29.9956 15.7939C29.7885 17.4713 24.4021 16.9043 24.3994 16.9203Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header__socials-item">
+                                <a class="header__socials-link" href="#">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M17.8571 24H7.14286C5.24845 24 3.43163 23.2877 2.09209 22.0199C0.752543 20.752 0 19.0324 0 17.2394V6.76056C0 4.96755 0.752543 3.24797 2.09209 1.98012C3.43163 0.712272 5.24845 0 7.14286 0H17.8571C19.7515 0 21.5684 0.712272 22.9079 1.98012C24.2475 3.24797 25 4.96755 25 6.76056V17.2394C25 18.1272 24.8152 19.0064 24.4563 19.8266C24.0973 20.6468 23.5712 21.3921 22.9079 22.0199C22.2446 22.6477 21.4572 23.1456 20.5906 23.4854C19.724 23.8251 18.7952 24 17.8571 24ZM22.6786 6.25352C22.6786 5.13289 22.2082 4.05815 21.371 3.26575C20.5338 2.47334 19.3983 2.02817 18.2143 2.02817H6.60714C5.42314 2.02817 4.28764 2.47334 3.45043 3.26575C2.61321 4.05815 2.14286 5.13289 2.14286 6.25352V17.2394C2.14286 18.3601 2.61321 19.4348 3.45043 20.2272C4.28764 21.0196 5.42314 21.4648 6.60714 21.4648H18.2143C19.3983 21.4648 20.5338 21.0196 21.371 20.2272C22.2082 19.4348 22.6786 18.3601 22.6786 17.2394V6.25352ZM19.1071 6.92958C18.7893 6.92958 18.4786 6.84036 18.2143 6.67322C17.95 6.50608 17.744 6.26851 17.6223 5.99056C17.5007 5.71261 17.4689 5.40676 17.5309 5.11169C17.5929 4.81662 17.7459 4.54559 17.9707 4.33285C18.1955 4.12012 18.4818 3.97524 18.7936 3.91655C19.1054 3.85786 19.4285 3.88798 19.7222 4.00311C20.0158 4.11824 20.2668 4.31321 20.4434 4.56336C20.62 4.81351 20.7143 5.1076 20.7143 5.40845C20.7143 5.81188 20.545 6.19878 20.2436 6.48405C19.9422 6.76932 19.5334 6.92958 19.1071 6.92958ZM12.4107 18.0845C11.1216 18.0845 9.86144 17.7227 8.78959 17.0448C7.71773 16.367 6.88233 15.4035 6.38901 14.2763C5.89569 13.149 5.7666 11.9086 6.01809 10.712C6.26958 9.51531 6.89035 8.41609 7.80188 7.55334C8.71342 6.69059 9.87479 6.10305 11.1391 5.86501C12.4035 5.62698 13.714 5.74915 14.905 6.21607C16.096 6.68298 17.1139 7.47368 17.8301 8.48817C18.5463 9.50266 18.9286 10.6954 18.9286 11.9155C18.9286 13.5516 18.2419 15.1207 17.0195 16.2776C15.7972 17.4346 14.1394 18.0845 12.4107 18.0845ZM12.4107 7.94366C11.5807 7.94366 10.7694 8.17661 10.0793 8.61304C9.3892 9.04947 8.85134 9.66978 8.53372 10.3955C8.2161 11.1213 8.133 11.9199 8.29492 12.6904C8.45684 13.4608 8.8565 14.1685 9.44338 14.724C10.0303 15.2795 10.778 15.6578 11.592 15.811C12.4061 15.9643 13.2498 15.8856 14.0166 15.585C14.7834 15.2844 15.4388 14.7753 15.8999 14.1221C16.361 13.469 16.6071 12.701 16.6071 11.9155C16.6071 10.8621 16.165 9.85185 15.378 9.10698C14.5911 8.36212 13.5237 7.94366 12.4107 7.94366Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header__socials-item">
+                                <a class="header__socials-link" href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M6.5068 9.31511C6.46544 8.76567 6.57327 8.21528 6.81904 7.7217C6.89392 7.52505 6.99799 7.34072 7.1278 7.17486C7.35949 6.86261 7.66907 6.61612 8.02584 6.4598C8.02584 6.4598 9.0862 6.35609 9.17794 6.49812C9.66933 7.34798 10.0804 8.24148 10.4059 9.16711C10.5682 9.77248 9.71607 10.4635 9.71607 10.4635C9.71607 10.4635 9.17619 10.7377 9.71607 11.4167C10.1183 11.9235 10.8029 12.8066 11.214 13.1326C11.6482 13.4867 12.1102 13.8055 12.5954 14.0862C13.5993 14.6408 13.7863 14.5817 13.7863 14.5817C13.7863 14.5817 13.9716 14.6571 14.4762 13.9718C14.7461 13.6079 15.0408 13.1808 15.3213 13.0947C15.6459 12.9957 18.2677 14.4958 18.1636 14.391C18.3471 14.5754 18.2024 15.1665 18.2024 15.1665C18.2024 15.1665 18.2589 15.8278 17.2603 16.5903C16.6022 17.0932 15.5136 17.2129 15.5136 17.2129C14.8282 17.1641 14.1545 17.0099 13.5164 16.7559C12.4525 16.3564 11.3286 16.0201 9.86954 14.697C8.85594 13.7801 7.97537 12.727 7.2531 11.5682C6.48562 10.2497 6.5068 9.31511 6.5068 9.31511ZM12.2302 23.4662C10.1959 23.4691 8.19574 22.9455 6.4256 21.9468L0 24L2.11187 17.7483C0.779137 15.5247 0.222353 12.9241 0.528302 10.3522C0.834252 7.78027 1.98573 5.38146 3.80326 3.52975C5.62079 1.67805 8.00222 0.477515 10.5763 0.115318C13.1503 -0.246879 15.7723 0.249615 18.0335 1.5274C20.2947 2.80518 22.0679 4.79244 23.0768 7.17936C24.0858 9.56627 24.2736 12.2187 23.6112 14.7231C22.9487 17.2276 21.4731 19.4432 19.4145 21.0247C17.3558 22.6062 14.8298 23.4646 12.2302 23.4662ZM12.2108 1.99824C10.4028 1.99154 8.6281 2.48166 7.08162 3.41471C5.53514 4.34776 4.27684 5.6876 3.4451 7.28691C2.61336 8.88622 2.24038 10.6831 2.36717 12.4799C2.49396 14.2767 3.11563 16.0038 4.16379 17.4715L3.22693 20.3015L3.23046 20.3041L2.95699 21.1023L4.54663 20.6321C4.5441 20.6291 4.54111 20.6265 4.5378 20.6244L6.71851 19.9406C7.9953 20.7999 9.45665 21.3488 10.9851 21.543C12.5135 21.7373 14.0663 21.5715 15.5188 21.0591C16.9712 20.5467 18.2827 19.7019 19.3478 18.5926C20.4129 17.4834 21.2019 16.1406 21.6514 14.6722C22.1009 13.2039 22.1982 11.651 21.9357 10.1384C21.6732 8.62571 21.0581 7.19553 20.1399 5.9628C19.2217 4.73007 18.0259 3.7292 16.6488 3.04063C15.2717 2.35207 13.7516 1.99504 12.2108 1.99824Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="header__socials-item">
+                                <a class="header__socials-link" href="#">
+                                    +7 (921) 967-61-88
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <section class="header__hero hero">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">
+                            <span>Нитевой</span> лифтинг кожи лица и шеи
+                        </h1>
+                        <p class="hero__text">
+                            Позвольте себе выглядеть моложе на <span>5 лет</span>
+                        </p>
+                        <div class="hero__button button">
+                            <img src="img/icons/border-1.svg" alt="">
+                            <div class="hero__button-block button-block">
+                                <div class="hero__button-arrow button-arrow">
+                                    <svg width="22" height="8" viewBox="0 0 22 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M21.3536 3.64645C21.5488 3.84171 21.5488 4.15829 21.3536 4.35355L18.1716 7.53553C17.9763 7.7308 17.6597 7.7308 17.4645 7.53553C17.2692 7.34027 17.2692 7.02369 17.4645 6.82843L20.2929 4L17.4645 1.17157C17.2692 0.976311 17.2692 0.659728 17.4645 0.464466C17.6597 0.269204 17.9763 0.269204 18.1716 0.464466L21.3536 3.64645ZM0 3.5L21 3.5V4.5L0 4.5L0 3.5Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                                <div class="hero__button-text button-text">
+                                    Записаться
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__decor">
+                            <img src="img/decor/decor-hero.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <section class="main__about about" id="about">
+                <div class="main__problem problem">
+                    <div class="problem__inner">
+                        <div class="problem__img">
+                            <img src="img/decor/girls/girl-1.jpg" alt="">
+                        </div>
+                        <div class="problem__content">
+                            <h2 class="problem__title title">
+                                какие
+                                <span class="problem__title-span">
+                                    проблемы
+                                </span>
+                            </h2>
+                            <p class="problem__title-text title-text">
+                                решает процедура
+                            </p>
+                            <ul class="problem__list">
+                                <li class="problem__item">
+                                    <div class="problem__icon">
+                                        <img src="img/icons/section-problem/icon-1.svg" alt="">
+                                    </div>
+                                    Мелкие и глубокие морщины
+                                </li>
+                                <li class="problem__item">
+                                    <div class="problem__icon">
+                                        <img src="img/icons/section-problem/icon-2.svg" alt="">
+                                    </div>
+                                    Носогубные складки
+                                </li>
+                                <li class="problem__item">
+                                    <div class="problem__icon">
+                                        <img src="img/icons/section-problem/icon-3.svg" alt="">
+                                    </div>
+                                    Опущение кончиков губ и бровей
+                                </li>
+                                <li class="problem__item">
+                                    <div class="problem__icon">
+                                        <img src="img/icons/section-problem/icon-4.svg" alt="">
+                                    </div>
+                                    Обвисание кожи и нечеткий овал
+                                </li>
+                                <li class="problem__item">
+                                    <div class="problem__icon">
+                                        <img src="img/icons/section-problem/icon-5.svg" alt="">
+                                    </div>
+                                    Наличие брылей и второго подбородка
+                                </li>
+                                <li class="problem__item">
+                                    <div class="problem__icon">
+                                        <img src="img/icons/section-problem/icon-6.svg" alt="">
+                                    </div>
+                                    Ассиметрия лица
+                                </li>
+                            </ul>
+                            <div class="problem__button button">
+                                <img src="img/icons/border-2.svg" alt="">
+                                <div class="problem__button-block button-block">
+                                    <div class="problem__button-arrow button-arrow">
+                                        <svg width="22" height="8" viewBox="0 0 22 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M21.3536 3.64645C21.5488 3.84171 21.5488 4.15829 21.3536 4.35355L18.1716 7.53553C17.9763 7.7308 17.6597 7.7308 17.4645 7.53553C17.2692 7.34027 17.2692 7.02369 17.4645 6.82843L20.2929 4L17.4645 1.17157C17.2692 0.976311 17.2692 0.659728 17.4645 0.464466C17.6597 0.269204 17.9763 0.269204 18.1716 0.464466L21.3536 3.64645ZM0 3.5L21 3.5V4.5L0 4.5L0 3.5Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                    <div class="problem__button-text button-text">
+                                        Записаться
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__aptos aptos">
+                    <div class="container">
+                        <div class="aptos__top">
+                            <div class="aptos__top-inner">
+                                <div class="img__decor">
+                                    <div class="aptos__top-img">
+                                        <img src="img/decor/girls/girl-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="aptos__top-content">
+                                    <h2 class="aptos__top-title title">
+                                        Нити
+                                        <span class="aptos__title-span">
+                                            APTOS
+                                        </span>
+                                    </h2>
+                                    <p class="aptos__title-text title-text">
+                                        безоперационная подтяжка лица
+                                    </p>
+                                    <p class="aptos__top-text">
+                                        Нитевой лифтинг с помощью нитей APTOS – уникальная методика безоперационной
+                                        подтяжки лица, результат от которой можно сравнить с пластической операцией.<br>
+                                        Методика позволяет за 1 визит к косметологу стереть с лица около 10 лет!<br>
+                                        Нитевой лифтинг, в отличие от операции, не требует многомесячной реабилитации,
+                                        проходит безболезненно и результат можно оценить моментально.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aptos__body">
+                            <div class="aptos__body-inner">
+                                <div class="aptos__info">
+                                    <div class="aptos__accent-text">
+                                        Аптос изготавливаются из биологически совместимого с живыми тканями капролака,
+                                        который обладает способностью самоликвидироваться и без остатка выводиться из
+                                        человеческого организма в течение года.
+                                    </div>
+                                    <div class="aptos__info-text">
+                                        Сходство с иными мезонитями заключается в процедуре вживления под кожу.
+                                        Она происходит следующим образом — нить протягивают при помощи тончайшей иглы и
+                                        канюли, которая позволяет произвести расслоение тканей, не повреждая их.
+                                    </div>
+                                </div>
+                                <div class="aptos__info-img">
+                                    <div class="aptos__body-img">
+                                        <img src="img/decor/girls/girl-3.jpg" alt="">
+                                    </div>
+                                    <div class="aptos__info-text">
+                                        Кардинальное отличие Aptos от прочей подобной продукции — уникальный состав
+                                        нитей, он включает L-молочную кислоту, которая создает весьма ценный добавочный
+                                        эффект — запускает в тканях активный процесс естественной регенерации, тем самым
+                                        стимулируя их самоомоложение.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="aptos__decor">
+                                <img src="img/decor/decor-aptos.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="aptos__bottom">
+                            <div class="aptos__bottom-inner">
+                                <div class="aptos__bottom-img">
+                                    <img src="img/decor/girls/girl-10.jpg" alt="">
+                                    <div class="aptos__img-control">
+                                        <a class="procedure__img-button" data-fslighbox="video" href="">
+                                            <img src="img/icons/play-control.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="aptos__bottom-content">
+                                    <h2 class="aptos__bottom-title title">
+                                        Как проходит
+                                        <span class="aptos__title-span">
+                                            процедура?
+                                        </span>
+                                    </h2>
+                                    <ul class="aptos__bottom-list">
+                                        <li class="aptos__bottom-item">
+                                            <ul class="procedure__list-inner">
+                                                <li class="procedure__item-inner">
+                                                    01
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    Знакомство и анализ
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    Врач оценивает состояние кожи пациента. Согласовывает с пациентом
+                                                    количество нитей и тип установки.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="aptos__bottom-item">
+                                            <ul class="procedure__list-inner">
+                                                <li class="procedure__item-inner">
+                                                    02
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    Разметка
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    На определенные места врач наносит линии разметки, по которым должны
+                                                    крепиться нити.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="aptos__bottom-item">
+                                            <ul class="procedure__list-inner">
+                                                <li class="procedure__item-inner">
+                                                    03
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    Анестезия
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    По желанию пациента процедура проводится под местной анестезией
+                                                    (применяется обезболивающий препарат).
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="aptos__bottom-item">
+                                            <ul class="procedure__list-inner">
+                                                <li class="procedure__item-inner">
+                                                    04
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    Установка
+                                                </li>
+                                                <li class="procedure__item-inner">
+                                                    Врач делает точечные проколы по размеченным линиям и через них с
+                                                    помощью
+                                                    канюли (атравматическая игла-проводник), вводятся нити Аптос.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="aptos__bottom-info">
+                                        <div class="aptos__info-name">
+                                            Продолжительность процедуры:
+                                        </div>
+                                        <div class="aptos__info-content">
+                                            30-40 минут
+                                        </div>
+                                    </div>
+                                    <div class="aptos__bottom-line"></div>
+                                    <div class="aptos__bottom-info">
+                                        <div class="aptos__info-name">
+                                            Препараты:
+                                        </div>
+                                        <div class="aptos__info-content">
+                                            инновационные нити APTOS
+                                        </div>
+                                    </div>
+                                    <div class="aptos__bottom-line"></div>
+                                    <div class="aptos__bottom-info">
+                                        <div class="aptos__info-name">
+                                            Эффект наступает:
+                                        </div>
+                                        <div class="aptos__info-content">
+                                            после первой процедуры
+                                        </div>
+                                    </div>
+                                    <div class="aptos__bottom-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_procedure procedure">
+                <div class="container">
+                    <div class="procedure__advantage">
+                        <h3 class="procedure__title">
+                            Преимущества процедуры
+                        </h3>
+                        <ul class="procedure__list">
+                            <li class="procedure__item">
+                                <div class="procedur__item-img">
+                                    <img src="img/icons/section-after/icon-1.svg" alt="">
+                                </div>
+                                <span>
+                                    Скорость
+                                </span>
+                                <p class="procedure__item-text">
+                                    Введение нитей редко длится более получаса, а потому уже вскоре вы получите заветный
+                                    эффект.
+                                </p>
+                            </li>
+                            <li class="procedure__item">
+                                <div class="procedur__item-img">
+                                    <img src="img/icons/section-after/icon-2.svg" alt="">
+                                </div>
+                                <span>
+                                    Не нужен наркоз
+                                </span>
+                                <p class="procedure__item-text">
+                                    Достаточно местной анестезии, что существенно сокращает всевозможные риски,
+                                    связанные с мощными анестетиками.
+                                </p>
+                            </li>
+                            <li class="procedure__item">
+                                <div class="procedur__item-img">
+                                    <img src="img/icons/section-after/icon-3.svg" alt="">
+                                </div>
+                                <span>
+                                    Нет вредя для здоровья
+                                </span>
+                                <p class="procedure__item-text">
+                                    Введение нитей абсолютно безопасно. Процедура не несет существенной нагрузки на
+                                    организм.
+                                </p>
+                            </li>
+                            <li class="procedure__item">
+                                <div class="procedur__item-img">
+                                    <img src="img/icons/section-after/icon-4.svg" alt="">
+                                </div>
+                                <span>
+                                    Быстрый эффект
+                                </span>
+                                <p class="procedure__item-text">
+                                    Сразу после процедуры будут заметны изменения.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="procedure__example">
+                        <div class="procedure__inner">
+                            <div class="procedure__example-slider">
+                                <div class="procedure__slider swiper">
+                                    <div class="procedure__wrapper swiper-wrapper">
+                                        <div class="procedure__slide swiper-slide">
+                                            <img src="img/content/example-1.jpg" alt="">
+                                        </div>
+                                        <div class="procedure__slide swiper-slide">
+                                            <img src="img/content/example-2.png" alt="">
+                                        </div>
+                                        <div class="procedure__slide swiper-slide">
+                                            <img src="img/content/example-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="procedure__example-nav">
+                                        <div class="procedure__prev">
+                                            <svg width="21" height="33" viewBox="0 0 21 33" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0.958008 16.9438L3.56382 14.5465L20.9359 30.5287L18.3301 32.926L0.958008 16.9438Z"
+                                                    fill="#DBBF8D" />
+                                                <path
+                                                    d="M3.56354 19.3409L0.958008 16.9438L18.3298 0.961411L20.9356 3.35873L3.56354 19.3409Z"
+                                                    fill="#DBBF8D" />
+                                            </svg>
+                                        </div>
+                                        <div class="procedure__next">
+                                            <svg width="21" height="33" viewBox="0 0 21 33" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M20.9315 16.0562L18.3257 18.4535L0.953644 2.47134L3.55945 0.0740131L20.9315 16.0562Z"
+                                                    fill="#DBBF8D" />
+                                                <path
+                                                    d="M18.326 13.6591L20.9315 16.0562L3.55973 32.0386L0.953924 29.6413L18.326 13.6591Z"
+                                                    fill="#DBBF8D" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="procedure__example-content">
+                                <h2 class="procedure__example-title">
+                                    <span>
+                                        Примеры
+                                    </span>
+                                    работ
+                                </h2>
+                                <p class="procedure__title-text">
+                                    Устойчивый результат, гладкая кожа от <span>4х до 5 лет</span>
+                                </p>
+                                <div class="procedure__button button">
+                                    <img src="img/icons/border-2.svg" alt="">
+                                    <div class="procedure__button-block button-block">
+                                        <div class="procedure__button-arrow button-arrow">
+                                            <svg width="22" height="8" viewBox="0 0 22 8" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M21.3536 3.64645C21.5488 3.84171 21.5488 4.15829 21.3536 4.35355L18.1716 7.53553C17.9763 7.7308 17.6597 7.7308 17.4645 7.53553C17.2692 7.34027 17.2692 7.02369 17.4645 6.82843L20.2929 4L17.4645 1.17157C17.2692 0.976311 17.2692 0.659728 17.4645 0.464466C17.6597 0.269204 17.9763 0.269204 18.1716 0.464466L21.3536 3.64645ZM0 3.5L21 3.5V4.5L0 4.5L0 3.5Z"
+                                                    fill="#B68C6E" />
+                                            </svg>
+                                        </div>
+                                        <div class="procedure__button-text button-text">
+                                            Записаться
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__price price" id="price">
+                <div class="container">
+                    <div class="price__inner">
+                        <div class="price__content">
+                            <h3 class="price__title">
+                                Прайс лист на услуги
+                            </h3>
+                            <div class="accordion__list">
+                                <div class="accordion__tab-content">
+                                    <a class="accordion__tab-control" href="#">
+                                        Брови
+                                    </a>
+                                    <div class="accordion__tab-info">
+                                        <div class="accordion__tab-text">
+                                            Процедура выполняется всего 1 раз, курс не нужен
+                                        </div>
+                                        <div class="accordion__tab-value">
+                                            46 900 ₽
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion__tab-content">
+                                    <a class="accordion__tab-control" href="#">
+                                        Шечно-скуловая
+                                    </a>
+                                    <div class="accordion__tab-info">
+                                        <div class="accordion__tab-text">
+                                            Процедура выполняется всего 1 раз, курс не нужен
+                                        </div>
+                                        <div class="accordion__tab-value">
+                                            36 500 ₽
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion__tab-content">
+                                    <a class="accordion__tab-control" href="#">
+                                        Носогубные складки
+                                    </a>
+                                    <div class="accordion__tab-info">
+                                        <div class="accordion__tab-text">
+                                            Процедура выполняется всего 1 раз, курс не нужен
+                                        </div>
+                                        <div class="accordion__tab-value">
+                                            17 399 ₽
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion__tab-content">
+                                    <a class="accordion__tab-control" href="#">
+                                        Брыли
+                                    </a>
+                                    <div class="accordion__tab-info">
+                                        <div class="accordion__tab-text">
+                                            Процедура выполняется всего 1 раз, курс не нужен
+                                        </div>
+                                        <div class="accordion__tab-value">
+                                            51 000 ₽
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion__tab-content">
+                                    <a class="accordion__tab-control" href="#">
+                                        Складки на шее
+                                    </a>
+                                    <div class="accordion__tab-info">
+                                        <div class="accordion__tab-text">
+                                            Процедура выполняется всего 1 раз, курс не нужен
+                                        </div>
+                                        <div class="accordion__tab-value">
+                                            22 000 ₽
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion__tab-content">
+                                    <a class="accordion__tab-control" href="#">
+                                        Морщины на лбу
+                                    </a>
+                                    <div class="accordion__tab-info">
+                                        <div class="accordion__tab-text">
+                                            Процедура выполняется всего 1 раз, курс не нужен
+                                        </div>
+                                        <div class="accordion__tab-value">
+                                            15 800 ₽
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price__button button">
+                                <img src="img/icons/border-2.svg" alt="">
+                                <div class="price__button-block button-block">
+                                    <div class="price__button-arrow button-arrow">
+                                        <svg width="22" height="8" viewBox="0 0 22 8" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M21.3536 3.64645C21.5488 3.84171 21.5488 4.15829 21.3536 4.35355L18.1716 7.53553C17.9763 7.7308 17.6597 7.7308 17.4645 7.53553C17.2692 7.34027 17.2692 7.02369 17.4645 6.82843L20.2929 4L17.4645 1.17157C17.2692 0.976311 17.2692 0.659728 17.4645 0.464466C17.6597 0.269204 17.9763 0.269204 18.1716 0.464466L21.3536 3.64645ZM0 3.5L21 3.5V4.5L0 4.5L0 3.5Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                    <div class="price__button-text button-text">
+                                        Записаться
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price__img">
+                            <img src="img/decor/girls/girl-8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__team team" id="team">
+                <div class="container">
+                    <h3 class="team__title">
+                        Наша команда
+                    </h3>
+                    <ul class="team__list">
+                        <li class="team__item">
+                            <div class="team__img">
+                                <div class="team__img-decor">
+                                    <img src="img/decor/Square-1.svg" alt="" class="img-1">
+                                </div>
+                                <div class="team__img-girl">
+                                    <img src="img/content/team/doctor-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="team__text text-1">
+                                Врач дерматовенеролог
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__img">
+                                <div class="team__img-decor">
+                                    <img src="img/decor/Square-2.svg" alt="" class="img-2">
+                                </div>
+                                <div class="team__img-girl">
+                                    <img src="img/content/team/doctor-2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="team__text text-2">
+                                Врач косметолог
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__img">
+                                <div class="team__img-decor">
+                                    <img src="img/decor/Square-3.svg" alt="" class="img-3">
+                                </div>
+                                <div class="team__img-girl">
+                                    <img src="img/content/team/doctor-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="team__text text-3">
+                                Врач косметолог
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+            <section class="main__reviews reviews" id="reviews">
+                <div class="container">
+                    <div class="reviews__content">
+                        <h2 class="reviews__title">
+                            <span>Наши клиенты</span> всегда в восторге
+                        </h2>
+                        <div class="reviews__nav">
+                            <button class="reviews__prev" type="button">
+                                <svg width="21" height="33" viewBox="0 0 21 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M0.958008 16.9438L3.56382 14.5465L20.9359 30.5287L18.3301 32.926L0.958008 16.9438Z"
+                                        fill="#DBBF8D" />
+                                    <path
+                                        d="M3.56354 19.3409L0.958008 16.9438L18.3298 0.961411L20.9356 3.35873L3.56354 19.3409Z"
+                                        fill="#DBBF8D" />
+                                </svg>
+                            </button>
+                            <button class="reviews__next" type="button">
+                                <svg width="21" height="33" viewBox="0 0 21 33" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.9315 16.0562L18.3257 18.4535L0.953644 2.47134L3.55945 0.0740131L20.9315 16.0562Z"
+                                        fill="#DBBF8D" />
+                                    <path
+                                        d="M18.326 13.6591L20.9315 16.0562L3.55973 32.0386L0.953924 29.6413L18.326 13.6591Z"
+                                        fill="#DBBF8D" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="reviews__slider swiper">
+                        <div class="reviews__wrapper swiper-wrapper">
+                            <div class="reviews__slide swiper-slide" data-fslightbox="gallery">
+                                <div class="reviews__slide-img">
+                                    <a href="img/content/customers/Marina.jpg">
+                                        <img src="img/content/customers/Marina.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__slide-name">
+                                    Марина
+                                </div>
+                                <div class="reviews__slide-text">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев
+                                </div>
+                                <div class="reviews__slide-icons">
+                                    <div class="reviews__slide-vk">
+                                        <svg width="28" height="15" viewBox="0 0 28 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22.7728 14.9297H22.5638C21.139 14.7158 20.2577 13.7977 19.43 12.942C18.9555 12.461 18.1917 11.2225 17.3407 11.3519C16.1306 11.5335 16.8057 13.5125 16.2961 14.3334C15.892 14.9893 14.1461 14.8502 12.9533 14.7309C9.17178 14.3616 7.12056 12.5608 5.43203 10.5568C3.61857 8.41864 2.313 6.07397 1.04462 3.59991C0.626773 2.78913 0 1.99983 0 1.01592C0.614865 0.557168 1.70461 0.618389 2.71602 0.618389C3.56676 0.618389 4.80526 0.524968 5.43203 0.817157C5.80329 0.993265 6.17601 2.01334 6.47666 2.60607C7.06331 3.79067 7.76264 4.92174 8.5659 5.98512C8.9311 6.46216 9.58733 7.30017 10.2373 7.17773C10.876 7.06046 10.8367 5.7142 10.8641 4.79251C10.8973 3.74441 10.9834 2.36953 10.6551 1.811C10.3505 1.28744 9.75865 1.32918 9.19267 1.01592C9.6615 0.141346 10.9685 0.0220853 12.5355 0.0220853C13.8492 0.0220853 15.5682 -0.176683 16.0872 0.618389C16.6026 1.43831 16.3352 3.09603 16.2961 4.19621C16.257 5.43175 16.0013 6.60468 16.9229 7.17773C17.6357 7.10736 17.9756 6.48204 18.3853 5.98512C19.2931 4.89389 19.9828 4.00738 20.6835 2.60607C20.9685 2.02109 21.209 1.00261 21.7281 0.817157C22.5208 0.545242 23.7027 0.618389 24.862 0.618389C25.8187 0.618389 27.4836 0.41326 27.7869 1.01592C28.0329 1.49714 27.39 2.85453 27.1602 3.20237C26.2781 4.52577 25.3927 5.43076 24.4442 6.58143C24.0614 7.04654 23.3486 7.63728 23.3995 8.37034C23.433 8.93603 23.9737 9.36537 24.4442 9.76171C25.3563 10.553 26.1951 11.4175 26.9513 12.3457C27.2613 12.711 28.0644 13.462 27.9959 13.9358C27.8026 15.4159 22.7753 14.9156 22.7728 14.9297Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                    <div class="reviews__slide-inst">
+                                        <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.4286 22H6.57143C4.82858 22 3.1571 21.3471 1.92472 20.1849C0.69234 19.0227 0 17.4464 0 15.8028V6.19718C0 4.55359 0.69234 2.97731 1.92472 1.81511C3.1571 0.652916 4.82858 0 6.57143 0H16.4286C18.1714 0 19.8429 0.652916 21.0753 1.81511C22.3077 2.97731 23 4.55359 23 6.19718V15.8028C23 16.6166 22.83 17.4225 22.4998 18.1744C22.1695 18.9263 21.6855 19.6094 21.0753 20.1849C20.4651 20.7603 19.7406 21.2168 18.9434 21.5283C18.1461 21.8397 17.2915 22 16.4286 22ZM20.8643 5.73239C20.8643 4.70515 20.4316 3.71997 19.6613 2.9936C18.8911 2.26723 17.8464 1.85915 16.7571 1.85915H6.07857C4.98929 1.85915 3.94463 2.26723 3.17439 2.9936C2.40415 3.71997 1.97143 4.70515 1.97143 5.73239V15.8028C1.97143 16.8301 2.40415 17.8152 3.17439 18.5416C3.94463 19.268 4.98929 19.6761 6.07857 19.6761H16.7571C17.8464 19.6761 18.8911 19.268 19.6613 18.5416C20.4316 17.8152 20.8643 16.8301 20.8643 15.8028V5.73239ZM17.5786 6.35211C17.2861 6.35211 17.0003 6.27033 16.7571 6.11712C16.514 5.9639 16.3245 5.74613 16.2125 5.49135C16.1006 5.23656 16.0714 4.9562 16.1284 4.68572C16.1855 4.41524 16.3263 4.16679 16.5331 3.97178C16.7398 3.77678 17.0033 3.64397 17.2901 3.59017C17.5769 3.53637 17.8742 3.56398 18.1444 3.66952C18.4146 3.77506 18.6455 3.95378 18.808 4.18308C18.9704 4.41238 19.0571 4.68197 19.0571 4.95775C19.0571 5.32756 18.9014 5.68222 18.6241 5.94371C18.3468 6.20521 17.9707 6.35211 17.5786 6.35211ZM11.4179 16.5775C10.2319 16.5775 9.07253 16.2458 8.08642 15.6244C7.10031 15.0031 6.33174 14.1199 5.87789 13.0866C5.42403 12.0533 5.30527 10.9163 5.53664 9.81931C5.76801 8.72236 6.33912 7.71475 7.17773 6.9239C8.01635 6.13304 9.08481 5.59446 10.248 5.37626C11.4112 5.15807 12.6169 5.27005 13.7126 5.69806C14.8083 6.12607 15.7448 6.85088 16.4037 7.78082C17.0626 8.71077 17.4143 9.8041 17.4143 10.9225C17.4143 12.4223 16.7825 13.8607 15.658 14.9212C14.5334 15.9817 13.0082 16.5775 11.4179 16.5775ZM11.4179 7.28169C10.6543 7.28169 9.90785 7.49522 9.27296 7.89528C8.63807 8.29534 8.14323 8.86397 7.85102 9.52924C7.55881 10.1945 7.48236 10.9266 7.63132 11.6328C7.78029 12.3391 8.14798 12.9878 8.68791 13.497C9.22784 14.0062 9.91577 14.3529 10.6647 14.4934C11.4136 14.6339 12.1898 14.5618 12.8953 14.2862C13.6007 14.0107 14.2037 13.544 14.6279 12.9453C15.0521 12.3465 15.2786 11.6426 15.2786 10.9225C15.2786 9.95692 14.8718 9.03086 14.1478 8.34807C13.4238 7.66528 12.4418 7.28169 11.4179 7.28169Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide-line"></div>
+                            <div class="reviews__slide swiper-slide" data-fslightbox="gallery">
+                                <div class="reviews__slide-img">
+                                    <a href="img/content/customers/Alica.jpg">
+                                        <img src="img/content/customers/Alica.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__slide-name">
+                                    Алиса
+                                </div>
+                                <div class="reviews__slide-text">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев
+                                </div>
+                                <div class="reviews__slide-icons">
+                                    <div class="reviews__slide-vk">
+                                        <svg width="28" height="15" viewBox="0 0 28 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22.7728 14.9297H22.5638C21.139 14.7158 20.2577 13.7977 19.43 12.942C18.9555 12.461 18.1917 11.2225 17.3407 11.3519C16.1306 11.5335 16.8057 13.5125 16.2961 14.3334C15.892 14.9893 14.1461 14.8502 12.9533 14.7309C9.17178 14.3616 7.12056 12.5608 5.43203 10.5568C3.61857 8.41864 2.313 6.07397 1.04462 3.59991C0.626773 2.78913 0 1.99983 0 1.01592C0.614865 0.557168 1.70461 0.618389 2.71602 0.618389C3.56676 0.618389 4.80526 0.524968 5.43203 0.817157C5.80329 0.993265 6.17601 2.01334 6.47666 2.60607C7.06331 3.79067 7.76264 4.92174 8.5659 5.98512C8.9311 6.46216 9.58733 7.30017 10.2373 7.17773C10.876 7.06046 10.8367 5.7142 10.8641 4.79251C10.8973 3.74441 10.9834 2.36953 10.6551 1.811C10.3505 1.28744 9.75865 1.32918 9.19267 1.01592C9.6615 0.141346 10.9685 0.0220853 12.5355 0.0220853C13.8492 0.0220853 15.5682 -0.176683 16.0872 0.618389C16.6026 1.43831 16.3352 3.09603 16.2961 4.19621C16.257 5.43175 16.0013 6.60468 16.9229 7.17773C17.6357 7.10736 17.9756 6.48204 18.3853 5.98512C19.2931 4.89389 19.9828 4.00738 20.6835 2.60607C20.9685 2.02109 21.209 1.00261 21.7281 0.817157C22.5208 0.545242 23.7027 0.618389 24.862 0.618389C25.8187 0.618389 27.4836 0.41326 27.7869 1.01592C28.0329 1.49714 27.39 2.85453 27.1602 3.20237C26.2781 4.52577 25.3927 5.43076 24.4442 6.58143C24.0614 7.04654 23.3486 7.63728 23.3995 8.37034C23.433 8.93603 23.9737 9.36537 24.4442 9.76171C25.3563 10.553 26.1951 11.4175 26.9513 12.3457C27.2613 12.711 28.0644 13.462 27.9959 13.9358C27.8026 15.4159 22.7753 14.9156 22.7728 14.9297Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                    <div class="reviews__slide-inst">
+                                        <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.4286 22H6.57143C4.82858 22 3.1571 21.3471 1.92472 20.1849C0.69234 19.0227 0 17.4464 0 15.8028V6.19718C0 4.55359 0.69234 2.97731 1.92472 1.81511C3.1571 0.652916 4.82858 0 6.57143 0H16.4286C18.1714 0 19.8429 0.652916 21.0753 1.81511C22.3077 2.97731 23 4.55359 23 6.19718V15.8028C23 16.6166 22.83 17.4225 22.4998 18.1744C22.1695 18.9263 21.6855 19.6094 21.0753 20.1849C20.4651 20.7603 19.7406 21.2168 18.9434 21.5283C18.1461 21.8397 17.2915 22 16.4286 22ZM20.8643 5.73239C20.8643 4.70515 20.4316 3.71997 19.6613 2.9936C18.8911 2.26723 17.8464 1.85915 16.7571 1.85915H6.07857C4.98929 1.85915 3.94463 2.26723 3.17439 2.9936C2.40415 3.71997 1.97143 4.70515 1.97143 5.73239V15.8028C1.97143 16.8301 2.40415 17.8152 3.17439 18.5416C3.94463 19.268 4.98929 19.6761 6.07857 19.6761H16.7571C17.8464 19.6761 18.8911 19.268 19.6613 18.5416C20.4316 17.8152 20.8643 16.8301 20.8643 15.8028V5.73239ZM17.5786 6.35211C17.2861 6.35211 17.0003 6.27033 16.7571 6.11712C16.514 5.9639 16.3245 5.74613 16.2125 5.49135C16.1006 5.23656 16.0714 4.9562 16.1284 4.68572C16.1855 4.41524 16.3263 4.16679 16.5331 3.97178C16.7398 3.77678 17.0033 3.64397 17.2901 3.59017C17.5769 3.53637 17.8742 3.56398 18.1444 3.66952C18.4146 3.77506 18.6455 3.95378 18.808 4.18308C18.9704 4.41238 19.0571 4.68197 19.0571 4.95775C19.0571 5.32756 18.9014 5.68222 18.6241 5.94371C18.3468 6.20521 17.9707 6.35211 17.5786 6.35211ZM11.4179 16.5775C10.2319 16.5775 9.07253 16.2458 8.08642 15.6244C7.10031 15.0031 6.33174 14.1199 5.87789 13.0866C5.42403 12.0533 5.30527 10.9163 5.53664 9.81931C5.76801 8.72236 6.33912 7.71475 7.17773 6.9239C8.01635 6.13304 9.08481 5.59446 10.248 5.37626C11.4112 5.15807 12.6169 5.27005 13.7126 5.69806C14.8083 6.12607 15.7448 6.85088 16.4037 7.78082C17.0626 8.71077 17.4143 9.8041 17.4143 10.9225C17.4143 12.4223 16.7825 13.8607 15.658 14.9212C14.5334 15.9817 13.0082 16.5775 11.4179 16.5775ZM11.4179 7.28169C10.6543 7.28169 9.90785 7.49522 9.27296 7.89528C8.63807 8.29534 8.14323 8.86397 7.85102 9.52924C7.55881 10.1945 7.48236 10.9266 7.63132 11.6328C7.78029 12.3391 8.14798 12.9878 8.68791 13.497C9.22784 14.0062 9.91577 14.3529 10.6647 14.4934C11.4136 14.6339 12.1898 14.5618 12.8953 14.2862C13.6007 14.0107 14.2037 13.544 14.6279 12.9453C15.0521 12.3465 15.2786 11.6426 15.2786 10.9225C15.2786 9.95692 14.8718 9.03086 14.1478 8.34807C13.4238 7.66528 12.4418 7.28169 11.4179 7.28169Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide-line"></div>
+                            <div class="reviews__slide swiper-slide" data-fslightbox="gallery">
+                                <div class="reviews__slide-img">
+                                    <a href="img/content/customers/Natalia.jpg">
+                                        <img src="img/content/customers/Natalia.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__slide-name">
+                                    Наталия
+                                </div>
+                                <div class="reviews__slide-text">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев
+                                </div>
+                                <div class="reviews__slide-icons">
+                                    <div class="reviews__slide-vk">
+                                        <svg width="28" height="15" viewBox="0 0 28 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22.7728 14.9297H22.5638C21.139 14.7158 20.2577 13.7977 19.43 12.942C18.9555 12.461 18.1917 11.2225 17.3407 11.3519C16.1306 11.5335 16.8057 13.5125 16.2961 14.3334C15.892 14.9893 14.1461 14.8502 12.9533 14.7309C9.17178 14.3616 7.12056 12.5608 5.43203 10.5568C3.61857 8.41864 2.313 6.07397 1.04462 3.59991C0.626773 2.78913 0 1.99983 0 1.01592C0.614865 0.557168 1.70461 0.618389 2.71602 0.618389C3.56676 0.618389 4.80526 0.524968 5.43203 0.817157C5.80329 0.993265 6.17601 2.01334 6.47666 2.60607C7.06331 3.79067 7.76264 4.92174 8.5659 5.98512C8.9311 6.46216 9.58733 7.30017 10.2373 7.17773C10.876 7.06046 10.8367 5.7142 10.8641 4.79251C10.8973 3.74441 10.9834 2.36953 10.6551 1.811C10.3505 1.28744 9.75865 1.32918 9.19267 1.01592C9.6615 0.141346 10.9685 0.0220853 12.5355 0.0220853C13.8492 0.0220853 15.5682 -0.176683 16.0872 0.618389C16.6026 1.43831 16.3352 3.09603 16.2961 4.19621C16.257 5.43175 16.0013 6.60468 16.9229 7.17773C17.6357 7.10736 17.9756 6.48204 18.3853 5.98512C19.2931 4.89389 19.9828 4.00738 20.6835 2.60607C20.9685 2.02109 21.209 1.00261 21.7281 0.817157C22.5208 0.545242 23.7027 0.618389 24.862 0.618389C25.8187 0.618389 27.4836 0.41326 27.7869 1.01592C28.0329 1.49714 27.39 2.85453 27.1602 3.20237C26.2781 4.52577 25.3927 5.43076 24.4442 6.58143C24.0614 7.04654 23.3486 7.63728 23.3995 8.37034C23.433 8.93603 23.9737 9.36537 24.4442 9.76171C25.3563 10.553 26.1951 11.4175 26.9513 12.3457C27.2613 12.711 28.0644 13.462 27.9959 13.9358C27.8026 15.4159 22.7753 14.9156 22.7728 14.9297Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                    <div class="reviews__slide-inst">
+                                        <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.4286 22H6.57143C4.82858 22 3.1571 21.3471 1.92472 20.1849C0.69234 19.0227 0 17.4464 0 15.8028V6.19718C0 4.55359 0.69234 2.97731 1.92472 1.81511C3.1571 0.652916 4.82858 0 6.57143 0H16.4286C18.1714 0 19.8429 0.652916 21.0753 1.81511C22.3077 2.97731 23 4.55359 23 6.19718V15.8028C23 16.6166 22.83 17.4225 22.4998 18.1744C22.1695 18.9263 21.6855 19.6094 21.0753 20.1849C20.4651 20.7603 19.7406 21.2168 18.9434 21.5283C18.1461 21.8397 17.2915 22 16.4286 22ZM20.8643 5.73239C20.8643 4.70515 20.4316 3.71997 19.6613 2.9936C18.8911 2.26723 17.8464 1.85915 16.7571 1.85915H6.07857C4.98929 1.85915 3.94463 2.26723 3.17439 2.9936C2.40415 3.71997 1.97143 4.70515 1.97143 5.73239V15.8028C1.97143 16.8301 2.40415 17.8152 3.17439 18.5416C3.94463 19.268 4.98929 19.6761 6.07857 19.6761H16.7571C17.8464 19.6761 18.8911 19.268 19.6613 18.5416C20.4316 17.8152 20.8643 16.8301 20.8643 15.8028V5.73239ZM17.5786 6.35211C17.2861 6.35211 17.0003 6.27033 16.7571 6.11712C16.514 5.9639 16.3245 5.74613 16.2125 5.49135C16.1006 5.23656 16.0714 4.9562 16.1284 4.68572C16.1855 4.41524 16.3263 4.16679 16.5331 3.97178C16.7398 3.77678 17.0033 3.64397 17.2901 3.59017C17.5769 3.53637 17.8742 3.56398 18.1444 3.66952C18.4146 3.77506 18.6455 3.95378 18.808 4.18308C18.9704 4.41238 19.0571 4.68197 19.0571 4.95775C19.0571 5.32756 18.9014 5.68222 18.6241 5.94371C18.3468 6.20521 17.9707 6.35211 17.5786 6.35211ZM11.4179 16.5775C10.2319 16.5775 9.07253 16.2458 8.08642 15.6244C7.10031 15.0031 6.33174 14.1199 5.87789 13.0866C5.42403 12.0533 5.30527 10.9163 5.53664 9.81931C5.76801 8.72236 6.33912 7.71475 7.17773 6.9239C8.01635 6.13304 9.08481 5.59446 10.248 5.37626C11.4112 5.15807 12.6169 5.27005 13.7126 5.69806C14.8083 6.12607 15.7448 6.85088 16.4037 7.78082C17.0626 8.71077 17.4143 9.8041 17.4143 10.9225C17.4143 12.4223 16.7825 13.8607 15.658 14.9212C14.5334 15.9817 13.0082 16.5775 11.4179 16.5775ZM11.4179 7.28169C10.6543 7.28169 9.90785 7.49522 9.27296 7.89528C8.63807 8.29534 8.14323 8.86397 7.85102 9.52924C7.55881 10.1945 7.48236 10.9266 7.63132 11.6328C7.78029 12.3391 8.14798 12.9878 8.68791 13.497C9.22784 14.0062 9.91577 14.3529 10.6647 14.4934C11.4136 14.6339 12.1898 14.5618 12.8953 14.2862C13.6007 14.0107 14.2037 13.544 14.6279 12.9453C15.0521 12.3465 15.2786 11.6426 15.2786 10.9225C15.2786 9.95692 14.8718 9.03086 14.1478 8.34807C13.4238 7.66528 12.4418 7.28169 11.4179 7.28169Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide-line"></div>
+                            <div class="reviews__slide swiper-slide" data-fslightbox="gallery">
+                                <div class="reviews__slide-img">
+                                    <a href="img/content/customers/Olga.jpg">
+                                        <img src="img/content/customers/Olga.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__slide-name">
+                                    Ольга
+                                </div>
+                                <div class="reviews__slide-text">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев
+                                </div>
+                                <div class="reviews__slide-icons">
+                                    <div class="reviews__slide-vk">
+                                        <svg width="28" height="15" viewBox="0 0 28 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22.7728 14.9297H22.5638C21.139 14.7158 20.2577 13.7977 19.43 12.942C18.9555 12.461 18.1917 11.2225 17.3407 11.3519C16.1306 11.5335 16.8057 13.5125 16.2961 14.3334C15.892 14.9893 14.1461 14.8502 12.9533 14.7309C9.17178 14.3616 7.12056 12.5608 5.43203 10.5568C3.61857 8.41864 2.313 6.07397 1.04462 3.59991C0.626773 2.78913 0 1.99983 0 1.01592C0.614865 0.557168 1.70461 0.618389 2.71602 0.618389C3.56676 0.618389 4.80526 0.524968 5.43203 0.817157C5.80329 0.993265 6.17601 2.01334 6.47666 2.60607C7.06331 3.79067 7.76264 4.92174 8.5659 5.98512C8.9311 6.46216 9.58733 7.30017 10.2373 7.17773C10.876 7.06046 10.8367 5.7142 10.8641 4.79251C10.8973 3.74441 10.9834 2.36953 10.6551 1.811C10.3505 1.28744 9.75865 1.32918 9.19267 1.01592C9.6615 0.141346 10.9685 0.0220853 12.5355 0.0220853C13.8492 0.0220853 15.5682 -0.176683 16.0872 0.618389C16.6026 1.43831 16.3352 3.09603 16.2961 4.19621C16.257 5.43175 16.0013 6.60468 16.9229 7.17773C17.6357 7.10736 17.9756 6.48204 18.3853 5.98512C19.2931 4.89389 19.9828 4.00738 20.6835 2.60607C20.9685 2.02109 21.209 1.00261 21.7281 0.817157C22.5208 0.545242 23.7027 0.618389 24.862 0.618389C25.8187 0.618389 27.4836 0.41326 27.7869 1.01592C28.0329 1.49714 27.39 2.85453 27.1602 3.20237C26.2781 4.52577 25.3927 5.43076 24.4442 6.58143C24.0614 7.04654 23.3486 7.63728 23.3995 8.37034C23.433 8.93603 23.9737 9.36537 24.4442 9.76171C25.3563 10.553 26.1951 11.4175 26.9513 12.3457C27.2613 12.711 28.0644 13.462 27.9959 13.9358C27.8026 15.4159 22.7753 14.9156 22.7728 14.9297Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                    <div class="reviews__slide-inst">
+                                        <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.4286 22H6.57143C4.82858 22 3.1571 21.3471 1.92472 20.1849C0.69234 19.0227 0 17.4464 0 15.8028V6.19718C0 4.55359 0.69234 2.97731 1.92472 1.81511C3.1571 0.652916 4.82858 0 6.57143 0H16.4286C18.1714 0 19.8429 0.652916 21.0753 1.81511C22.3077 2.97731 23 4.55359 23 6.19718V15.8028C23 16.6166 22.83 17.4225 22.4998 18.1744C22.1695 18.9263 21.6855 19.6094 21.0753 20.1849C20.4651 20.7603 19.7406 21.2168 18.9434 21.5283C18.1461 21.8397 17.2915 22 16.4286 22ZM20.8643 5.73239C20.8643 4.70515 20.4316 3.71997 19.6613 2.9936C18.8911 2.26723 17.8464 1.85915 16.7571 1.85915H6.07857C4.98929 1.85915 3.94463 2.26723 3.17439 2.9936C2.40415 3.71997 1.97143 4.70515 1.97143 5.73239V15.8028C1.97143 16.8301 2.40415 17.8152 3.17439 18.5416C3.94463 19.268 4.98929 19.6761 6.07857 19.6761H16.7571C17.8464 19.6761 18.8911 19.268 19.6613 18.5416C20.4316 17.8152 20.8643 16.8301 20.8643 15.8028V5.73239ZM17.5786 6.35211C17.2861 6.35211 17.0003 6.27033 16.7571 6.11712C16.514 5.9639 16.3245 5.74613 16.2125 5.49135C16.1006 5.23656 16.0714 4.9562 16.1284 4.68572C16.1855 4.41524 16.3263 4.16679 16.5331 3.97178C16.7398 3.77678 17.0033 3.64397 17.2901 3.59017C17.5769 3.53637 17.8742 3.56398 18.1444 3.66952C18.4146 3.77506 18.6455 3.95378 18.808 4.18308C18.9704 4.41238 19.0571 4.68197 19.0571 4.95775C19.0571 5.32756 18.9014 5.68222 18.6241 5.94371C18.3468 6.20521 17.9707 6.35211 17.5786 6.35211ZM11.4179 16.5775C10.2319 16.5775 9.07253 16.2458 8.08642 15.6244C7.10031 15.0031 6.33174 14.1199 5.87789 13.0866C5.42403 12.0533 5.30527 10.9163 5.53664 9.81931C5.76801 8.72236 6.33912 7.71475 7.17773 6.9239C8.01635 6.13304 9.08481 5.59446 10.248 5.37626C11.4112 5.15807 12.6169 5.27005 13.7126 5.69806C14.8083 6.12607 15.7448 6.85088 16.4037 7.78082C17.0626 8.71077 17.4143 9.8041 17.4143 10.9225C17.4143 12.4223 16.7825 13.8607 15.658 14.9212C14.5334 15.9817 13.0082 16.5775 11.4179 16.5775ZM11.4179 7.28169C10.6543 7.28169 9.90785 7.49522 9.27296 7.89528C8.63807 8.29534 8.14323 8.86397 7.85102 9.52924C7.55881 10.1945 7.48236 10.9266 7.63132 11.6328C7.78029 12.3391 8.14798 12.9878 8.68791 13.497C9.22784 14.0062 9.91577 14.3529 10.6647 14.4934C11.4136 14.6339 12.1898 14.5618 12.8953 14.2862C13.6007 14.0107 14.2037 13.544 14.6279 12.9453C15.0521 12.3465 15.2786 11.6426 15.2786 10.9225C15.2786 9.95692 14.8718 9.03086 14.1478 8.34807C13.4238 7.66528 12.4418 7.28169 11.4179 7.28169Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slide-line"></div>
+                            <div class="reviews__slide swiper-slide" data-fslightbox="gallery">
+                                <div class="reviews__slide-img">
+                                    <a href="img/content/customers/Alica.jpg">
+                                        <img src="img/content/customers/Alica.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="reviews__slide-name">
+                                    Алиса
+                                </div>
+                                <div class="reviews__slide-text">
+                                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько
+                                    абзацев
+                                </div>
+                                <div class="reviews__slide-icons">
+                                    <div class="reviews__slide-vk">
+                                        <svg width="28" height="15" viewBox="0 0 28 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M22.7728 14.9297H22.5638C21.139 14.7158 20.2577 13.7977 19.43 12.942C18.9555 12.461 18.1917 11.2225 17.3407 11.3519C16.1306 11.5335 16.8057 13.5125 16.2961 14.3334C15.892 14.9893 14.1461 14.8502 12.9533 14.7309C9.17178 14.3616 7.12056 12.5608 5.43203 10.5568C3.61857 8.41864 2.313 6.07397 1.04462 3.59991C0.626773 2.78913 0 1.99983 0 1.01592C0.614865 0.557168 1.70461 0.618389 2.71602 0.618389C3.56676 0.618389 4.80526 0.524968 5.43203 0.817157C5.80329 0.993265 6.17601 2.01334 6.47666 2.60607C7.06331 3.79067 7.76264 4.92174 8.5659 5.98512C8.9311 6.46216 9.58733 7.30017 10.2373 7.17773C10.876 7.06046 10.8367 5.7142 10.8641 4.79251C10.8973 3.74441 10.9834 2.36953 10.6551 1.811C10.3505 1.28744 9.75865 1.32918 9.19267 1.01592C9.6615 0.141346 10.9685 0.0220853 12.5355 0.0220853C13.8492 0.0220853 15.5682 -0.176683 16.0872 0.618389C16.6026 1.43831 16.3352 3.09603 16.2961 4.19621C16.257 5.43175 16.0013 6.60468 16.9229 7.17773C17.6357 7.10736 17.9756 6.48204 18.3853 5.98512C19.2931 4.89389 19.9828 4.00738 20.6835 2.60607C20.9685 2.02109 21.209 1.00261 21.7281 0.817157C22.5208 0.545242 23.7027 0.618389 24.862 0.618389C25.8187 0.618389 27.4836 0.41326 27.7869 1.01592C28.0329 1.49714 27.39 2.85453 27.1602 3.20237C26.2781 4.52577 25.3927 5.43076 24.4442 6.58143C24.0614 7.04654 23.3486 7.63728 23.3995 8.37034C23.433 8.93603 23.9737 9.36537 24.4442 9.76171C25.3563 10.553 26.1951 11.4175 26.9513 12.3457C27.2613 12.711 28.0644 13.462 27.9959 13.9358C27.8026 15.4159 22.7753 14.9156 22.7728 14.9297Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                    <div class="reviews__slide-inst">
+                                        <svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.4286 22H6.57143C4.82858 22 3.1571 21.3471 1.92472 20.1849C0.69234 19.0227 0 17.4464 0 15.8028V6.19718C0 4.55359 0.69234 2.97731 1.92472 1.81511C3.1571 0.652916 4.82858 0 6.57143 0H16.4286C18.1714 0 19.8429 0.652916 21.0753 1.81511C22.3077 2.97731 23 4.55359 23 6.19718V15.8028C23 16.6166 22.83 17.4225 22.4998 18.1744C22.1695 18.9263 21.6855 19.6094 21.0753 20.1849C20.4651 20.7603 19.7406 21.2168 18.9434 21.5283C18.1461 21.8397 17.2915 22 16.4286 22ZM20.8643 5.73239C20.8643 4.70515 20.4316 3.71997 19.6613 2.9936C18.8911 2.26723 17.8464 1.85915 16.7571 1.85915H6.07857C4.98929 1.85915 3.94463 2.26723 3.17439 2.9936C2.40415 3.71997 1.97143 4.70515 1.97143 5.73239V15.8028C1.97143 16.8301 2.40415 17.8152 3.17439 18.5416C3.94463 19.268 4.98929 19.6761 6.07857 19.6761H16.7571C17.8464 19.6761 18.8911 19.268 19.6613 18.5416C20.4316 17.8152 20.8643 16.8301 20.8643 15.8028V5.73239ZM17.5786 6.35211C17.2861 6.35211 17.0003 6.27033 16.7571 6.11712C16.514 5.9639 16.3245 5.74613 16.2125 5.49135C16.1006 5.23656 16.0714 4.9562 16.1284 4.68572C16.1855 4.41524 16.3263 4.16679 16.5331 3.97178C16.7398 3.77678 17.0033 3.64397 17.2901 3.59017C17.5769 3.53637 17.8742 3.56398 18.1444 3.66952C18.4146 3.77506 18.6455 3.95378 18.808 4.18308C18.9704 4.41238 19.0571 4.68197 19.0571 4.95775C19.0571 5.32756 18.9014 5.68222 18.6241 5.94371C18.3468 6.20521 17.9707 6.35211 17.5786 6.35211ZM11.4179 16.5775C10.2319 16.5775 9.07253 16.2458 8.08642 15.6244C7.10031 15.0031 6.33174 14.1199 5.87789 13.0866C5.42403 12.0533 5.30527 10.9163 5.53664 9.81931C5.76801 8.72236 6.33912 7.71475 7.17773 6.9239C8.01635 6.13304 9.08481 5.59446 10.248 5.37626C11.4112 5.15807 12.6169 5.27005 13.7126 5.69806C14.8083 6.12607 15.7448 6.85088 16.4037 7.78082C17.0626 8.71077 17.4143 9.8041 17.4143 10.9225C17.4143 12.4223 16.7825 13.8607 15.658 14.9212C14.5334 15.9817 13.0082 16.5775 11.4179 16.5775ZM11.4179 7.28169C10.6543 7.28169 9.90785 7.49522 9.27296 7.89528C8.63807 8.29534 8.14323 8.86397 7.85102 9.52924C7.55881 10.1945 7.48236 10.9266 7.63132 11.6328C7.78029 12.3391 8.14798 12.9878 8.68791 13.497C9.22784 14.0062 9.91577 14.3529 10.6647 14.4934C11.4136 14.6339 12.1898 14.5618 12.8953 14.2862C13.6007 14.0107 14.2037 13.544 14.6279 12.9453C15.0521 12.3465 15.2786 11.6426 15.2786 10.9225C15.2786 9.95692 14.8718 9.03086 14.1478 8.34807C13.4238 7.66528 12.4418 7.28169 11.4179 7.28169Z"
+                                                fill="#B68C6E" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__block">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__col">
+                            <div class="footer__logo-block">
+                                <a class="footer__logo" href="#">
+                                    <img src="img/icons/logo.png" alt="Логотип компании">
+                                </a>
+                                <div class="footer__text text">
+                                    Нитевой лифтинг лица в Санкт-Петербурге
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__col">
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#about">
+                                        О процедуре
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#price">
+                                        Прайс
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#team">
+                                        Наша команда
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#reviews">
+                                        Отзывы
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <ul class="footer__contacts-list">
+                                <li class="footer__contacts-item">
+                                    <div class="footer__contacts-name">Телефон:</div>
+                                    <span>+7 (921) 967-61-88</span>
+                                </li>
+                                <li class="footer__contacts-item">
+                                    <div class="footer__contacts-name">Эл. почта:</div>
+                                    artbeauty@inbox.ru
+                                </li>
+                                <li class="footer__contacts-item">
+                                    <div class="footer__contacts-name">Соц сети:</div>
+                                    <ul class="footer__socials-list">
+                                        <li class="footer__socials-item">
+                                            <a class="footer__socials-link" href="#">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.5" y="0.5" width="39" height="39" stroke="white" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.0043 16.6714H17.1853V14.5179C17.1853 13.5589 17.2332 12.0305 17.9123 11.1083C18.6236 10.1371 19.5011 9.49316 21.1837 9.49316C23.9282 9.49316 25.1822 9.85207 25.1822 9.85207L24.637 13.2617C24.0529 13.0525 23.4402 12.9315 22.8195 12.9028C21.9685 12.9028 21.1837 13.1069 21.1837 13.9795V16.6714H24.8187V19.9016H21.1837V31.2073H17.1853V19.9016H15.0043V16.6714Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials-item">
+                                            <a class="footer__socials-link" href="#">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.5" y="0.5" width="39" height="39" stroke="white" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M27.7236 26.9H27.5418C26.3023 26.7069 25.5357 25.878 24.8156 25.1054C24.4028 24.6712 23.7384 23.553 22.9981 23.6698C21.9454 23.8338 22.5326 25.6205 22.0893 26.3616C21.7378 26.9538 20.219 26.8282 19.1814 26.7205C15.8917 26.3871 14.1073 24.7612 12.6384 22.952C11.0608 21.0216 9.92505 18.9047 8.82165 16.671C8.45815 15.939 7.9129 15.2264 7.9129 14.3381C8.44779 13.9239 9.39579 13.9792 10.2756 13.9792C11.0157 13.9792 12.0931 13.8949 12.6384 14.1587C12.9614 14.3177 13.2856 15.2386 13.5471 15.7738C14.0575 16.8433 14.6658 17.8644 15.3646 18.8245C15.6823 19.2552 16.2532 20.0118 16.8186 19.9012C17.3742 19.7954 17.3401 18.5799 17.3639 17.7478C17.3928 16.8015 17.4676 15.5602 17.1821 15.0559C16.9171 14.5833 16.4022 14.6209 15.9099 14.3381C16.3177 13.5485 17.4547 13.4408 18.8179 13.4408C19.9607 13.4408 21.4561 13.2614 21.9076 13.9792C22.356 14.7195 22.1233 16.2161 22.0893 17.2094C22.0554 18.3249 21.8329 19.3839 22.6346 19.9012C23.2547 19.8377 23.5504 19.2731 23.9068 18.8245C24.6965 17.8393 25.2965 17.0389 25.9061 15.7738C26.154 15.2456 26.3632 14.3261 26.8148 14.1587C27.5044 13.9132 28.5325 13.9792 29.5411 13.9792C30.3733 13.9792 31.8216 13.794 32.0855 14.3381C32.2995 14.7726 31.7402 15.9981 31.5403 16.3121C30.773 17.5069 30.0027 18.324 29.1776 19.3629C28.8446 19.7828 28.2245 20.3161 28.2688 20.978C28.2979 21.4887 28.7683 21.8763 29.1776 22.2342C29.971 22.9485 30.7007 23.729 31.3586 24.5671C31.6283 24.8969 32.3269 25.5749 32.2673 26.0027C32.0992 27.3389 27.7257 26.8873 27.7236 26.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="footer__socials-item">
+                                            <a class="footer__socials-link" href="#">
+                                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect x="0.5" y="0.5" width="39" height="39" stroke="white" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M25.518 32.4812H14.7494C12.8454 32.4812 11.0194 31.7249 9.67301 30.3788C8.32667 29.0326 7.57031 27.2068 7.57031 25.303V14.1768C7.57031 12.273 8.32667 10.4472 9.67301 9.10099C11.0194 7.75481 12.8454 6.99854 14.7494 6.99854H25.518C27.4221 6.99854 29.2481 7.75481 30.5944 9.10099C31.9408 10.4472 32.6971 12.273 32.6971 14.1768V25.303C32.6971 27.2068 31.9408 29.0326 30.5944 30.3788C29.2481 31.7249 27.4221 32.4812 25.518 32.4812ZM30.3639 13.6384C30.3639 12.4485 29.8912 11.3074 29.0497 10.466C28.2083 9.62467 27.067 9.152 25.877 9.152H14.211C13.021 9.152 11.8797 9.62467 11.0382 10.466C10.1968 11.3074 9.72404 12.4485 9.72404 13.6384V25.303C9.72404 26.4929 10.1968 27.634 11.0382 28.4753C11.8797 29.3167 13.021 29.7894 14.211 29.7894H25.877C27.067 29.7894 28.2083 29.3167 29.0497 28.4753C29.8912 27.634 30.3639 26.4929 30.3639 25.303V13.6384ZM26.7744 14.3562C26.4549 14.3562 26.1426 14.2615 25.877 14.084C25.6113 13.9065 25.4043 13.6543 25.282 13.3592C25.1598 13.0641 25.1278 12.7393 25.1901 12.426C25.2525 12.1127 25.4063 11.8249 25.6322 11.5991C25.8581 11.3732 26.1459 11.2194 26.4592 11.157C26.7726 11.0947 27.0974 11.1267 27.3925 11.249C27.6877 11.3712 27.94 11.5782 28.1175 11.8438C28.295 12.1094 28.3897 12.4217 28.3897 12.7411C28.3897 13.1695 28.2195 13.5803 27.9166 13.8832C27.6137 14.186 27.2028 14.3562 26.7744 14.3562ZM20.044 26.2003C18.7483 26.2003 17.4818 25.8161 16.4045 25.0964C15.3272 24.3766 14.4876 23.3536 13.9917 22.1568C13.4959 20.9599 13.3662 19.6429 13.6189 18.3723C13.8717 17.1017 14.4956 15.9346 15.4118 15.0185C16.3279 14.1025 17.4952 13.4786 18.766 13.2259C20.0367 12.9731 21.3539 13.1029 22.5509 13.5986C23.7479 14.0944 24.7711 14.9339 25.4909 16.0111C26.2107 17.0883 26.5949 18.3547 26.5949 19.6501C26.5949 21.3873 25.9047 23.0534 24.6762 24.2818C23.4477 25.5102 21.7814 26.2003 20.044 26.2003ZM20.044 15.4329C19.2098 15.4329 18.3943 15.6803 17.7007 16.1437C17.0071 16.6071 16.4666 17.2657 16.1473 18.0363C15.8281 18.8069 15.7446 19.6548 15.9073 20.4729C16.0701 21.2909 16.4717 22.0424 17.0616 22.6322C17.6515 23.2219 18.403 23.6236 19.2212 23.7863C20.0393 23.949 20.8873 23.8655 21.658 23.5463C22.4287 23.2271 23.0874 22.6866 23.5509 21.9931C24.0143 21.2996 24.2617 20.4842 24.2617 19.6501C24.2617 18.5317 23.8173 17.459 23.0264 16.6681C22.2354 15.8773 21.1626 15.4329 20.044 15.4329Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer__contacts-item">
+                                    Санкт-Петербург,
+                                    пр. Просвещения, д.33, корп.2
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer__copy">
+                ©️ 2020 ART Beauty . Все права защищаны.
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal__window">
+            <a class="modal__cancel" href="#">X</a>
+            <h3 class="modal__title">
+                Запись на прием
+            </h3>
+            <form class="modal__form">
+                <label class="modal__form-label">
+                    <input class="input" type="text" placeholder="Укажите ваше ФИО">
+                </label>
+                <label class="modal__form-label">
+                    <input class="input" type="tel" placeholder="Ваш контактный телефон">
+                </label>
+                <label class="modal__form-label">
+                    <span class="label__text">
+                        *Укажите желаемую дату посещения врача
+                    </span>
+                    <input class="input" type="date">
+                </label>
+                <button class="modal__button" type="submit">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

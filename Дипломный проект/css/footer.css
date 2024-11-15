@@ -1,0 +1,84 @@
+/* ==============================FOOTER================================ */
+
+.footer {
+    background: #1D1D1A;
+    padding: 104px 260px 113px;
+    color: var(--white-color);
+
+    font-size: 16px;
+}
+
+.footer__block {
+    background: #D1AE8E;
+    padding: 90px 20px 90px;
+    margin-bottom: 27px;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    gap: 45px;
+}
+
+.footer__col:last-child {
+    max-width: 260px;
+}
+
+.footer__menu-item {
+    margin-bottom: 12px;
+    line-height: 1.4;
+
+    transition: var(--transition);
+}
+
+.footer__menu-item:hover {
+    color: var(--hover-color);
+}
+
+.footer__menu-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer__contacts-item {
+    margin-bottom: 15px;
+
+}
+
+.footer__contacts-item:last-child {
+    line-height: 1.4;
+}
+
+.footer__contacts-name {
+    margin-bottom: -9px;
+    font-weight: 600;
+}
+
+.footer__socials-list {
+    display: flex;
+    gap: 12px;
+
+    margin-top: 6px;
+}
+
+.footer__socials-item path {
+    transition: var(--transition);
+}
+
+.footer__socials-item rect {
+    transition: var(--transition);
+}
+
+.footer__socials-item:hover path {
+    fill: var(--hover-color);
+}
+
+.footer__socials-item:hover rect {
+    stroke: var(--hover-color);
+}
+
+.footer__copy {
+    text-align: center;
+    color: #dcd5ce;
+    font-size: 16px;
+}

@@ -1,0 +1,115 @@
+
+/* ==================================HEADER============================================================================ */
+
+.header {
+    background: url('../img/decor/bg-points.png') 104% -23% / auto no-repeat, url('../img/decor/background-header.png') 31% 0% / cover no-repeat;
+    color: var(--white-color);
+}
+
+.header__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+
+.header__socials-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+
+    font-family: "Kudryashev Headline", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: var(--letter-spacing);
+}
+
+.header__socials-item {
+    transition: var(--transition);
+}
+
+.header__socials-item path {
+    transition: var(--transition);
+}
+
+.header__socials-item:hover {
+    color: var(--hover-color);
+}
+
+.header__socials-item:hover path {
+    fill: var(--hover-color);
+}
+
+/* ===============================HERO SECTION================================= */
+
+.header__hero {
+    padding: 55px 0px 112px;
+}
+
+.hero__content {
+    position: relative;
+    max-width: 580px;
+}
+
+.hero__title {
+    font-size: 64px;
+    line-height: 1.31;
+    letter-spacing: -0.03em;
+    font-family: "Kudryashev Headline", sans-serif;
+    text-transform: uppercase;
+    color: var(--white-color);
+
+    margin-bottom: 45px;
+}
+
+.hero__title span {
+    font-size: 80px;
+}
+
+
+.hero__text {
+    font-size: 23px;
+    line-height: 1.65;
+
+    max-width: 378px;
+    margin-bottom: 35px;
+}
+
+.hero__text span {
+    font-weight: 700;
+}
+
+.hero__button-block {
+    left: 13%;
+    transition: var(--transition);
+}
+
+.hero__button-block path {
+    transition: var(--transition);
+}
+
+.hero__button-block:hover {
+    color: var(--hover-color);
+    transform: scale(1.1);
+}
+
+.hero__button-block:hover path {
+    fill: var(--hover-color);
+}
+
+
+.hero__decor {
+    position: absolute;
+    top: 48%;
+    left: 192%;
+
+    animation: rotation 10s linear infinite;
+}

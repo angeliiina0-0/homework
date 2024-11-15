@@ -1,0 +1,209 @@
+:root {
+    --general-text: #1d1d1a;
+    --white-color: #fff;
+    --hover-color: #7b614c;
+    --accent-color: #b68c6e;
+    --transition: all .3s;
+    --letter-spacing: 2px;
+}
+
+.body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--general-text);
+    background: var(--white-color);
+}
+
+.body--opened-modal {
+    overflow: hidden;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.text {
+    max-width: 173px;
+    font-size: 14px;
+    line-height: 1.59;
+}
+
+.title-text {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #312c38;
+    line-height: 1.05;
+}
+
+.button {
+    position: relative;
+}
+
+.button-block {
+    cursor: pointer;
+    display: flex;
+    gap: 14px;
+    position: absolute;
+    top: 35%;
+}
+
+.button-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.button-text {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: #00000071;
+    z-index: 100;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+}
+
+.body--opened-modal .modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal__window {
+    background: var(--general-text);
+    padding: 20px 60px 60px;
+    border-radius: 50px;
+
+
+    font-family: "Kudryashev Headline", serif;
+
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.modal__cancel {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--accent-color);
+}
+
+.modal__title {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: var(--letter-spacing);
+    color: var(--white-color);
+
+    margin-bottom: 15px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__form-label {
+    margin-bottom: 25px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal__form-label:nth-child(3) {
+    margin-bottom: 0px;
+}
+
+.label__text {
+    color: #b68c6e9c;
+    font-size: 20px;
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+
+    margin-bottom: 5px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 20px 48px;
+    border: 4px solid var(--accent-color);
+    border-radius: 50px;
+    background: none;
+    font-size: 20px;
+    color: var(--white-color);
+    letter-spacing: var(--letter-spacing);
+}
+
+.input:focus {
+    box-shadow: 1px 1px 5px var(--accent-color);
+}
+
+.input::placeholder {
+    color: #b68c6e9c;
+    letter-spacing: var(--letter-spacing);
+}
+
+input[type='date'] {
+    background: transparent;
+    color: #b68c6e9c;
+    font-family: "Kudryashev Headline", serif;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+
+.modal__button {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 50px;
+    background: var(--accent-color);
+    font-size: 20px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    transition: var(--transition);
+}
+
+.modal__button:hover {
+    background: var(--hover-color);
+}
